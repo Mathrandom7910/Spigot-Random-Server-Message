@@ -1,0 +1,5 @@
+name: RandomServerMsg
+version: '${project.version}'
+main: me.just.randomservermsg.RandomServerMsg
+api-version: 1.18
+description: sends a random server message
