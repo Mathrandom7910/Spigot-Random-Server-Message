@@ -1,5 +1,12 @@
 name: RandomServerMsg
 version: '${project.version}'
 main: me.just.randomservermsg.RandomServerMsg
-api-version: 1.18
+api-version: 1.12
 description: sends a random server message
+commands:
+  rndmMsgAdd:
+    description: adds a custom message to the random messages
+    usage: /rndmMsgAdd <message>
+  rndmMsgDuration:
+    description: sets the message delay (must turn on and off plugin)
+    usage: /rndmMsgDelay <delay in ticks>
